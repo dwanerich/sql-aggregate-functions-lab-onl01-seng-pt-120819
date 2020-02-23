@@ -1,7 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  SELECT * FROM students 
+  "SELECT "
 end
 
 def lowest_student_gpa
@@ -9,7 +9,7 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
-  "SELECT AVG(net_worth) AS average_net_worth FROM cats;
+  "SELECT AVG(gpa) AS average_net_worth FROM students;"
   
 end
 
