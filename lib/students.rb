@@ -14,10 +14,10 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-  "SELECT SUM(tardees) FROM students;"
+  "SELECT SUM(*) FROM students WHERE n >
   
 end
 
 def average_gpa_for_9th_grade
-  
+  "SELECT AVG(gpa) FROM students WHERE GRADE = 9;"
 end
